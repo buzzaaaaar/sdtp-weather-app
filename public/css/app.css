@@ -1,0 +1,104 @@
+/* Custom styles for the Air Quality Monitoring Dashboard */
+
+:root {
+  --good-color: #4CAF50;
+  --moderate-color: #FFEB3B;
+  --unhealthy-color: #FF9800;
+  --very-unhealthy-color: #F44336;
+  --hazardous-color: #9C27B0;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.bg-orange {
+  background-color: #FF9800;
+}
+
+.bg-purple {
+  background-color: #9C27B0;
+  color: white;
+}
+
+.aqi-info-window {
+  width: 300px;
+  padding: 0;
+}
+
+.aqi-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.aqi-value {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.aqi-location {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.aqi-time {
+  font-size: 12px;
+  color: #666;
+}
+
+.aqi-details {
+  padding: 10px;
+}
+
+.aqi-chart {
+  height: 100px;
+  margin: 10px 0;
+}
+
+.aqi-good {
+  background-color: var(--good-color);
+  color: white;
+}
+
+.aqi-moderate {
+  background-color: var(--moderate-color);
+  color: black;
+}
+
+.aqi-unhealthy {
+  background-color: var(--unhealthy-color);
+  color: white;
+}
+
+.aqi-very-unhealthy {
+  background-color: var(--very-unhealthy-color);
+  color: white;
+}
+
+.aqi-hazardous {
+  background-color: var(--hazardous-color);
+  color: white;
+}
+
+.dashboard-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.dashboard-card-header {
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #eee;
+}
+
+.dashboard-card-body {
+  padding: 15px;
+}
